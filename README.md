@@ -41,13 +41,6 @@ Block diagram of the temperature sensor’s circuit
 The physical implementation of the analog blocks in the circuit is done using two manually designed standard cells:
 ![tempsense_ckt](https://user-images.githubusercontent.com/110079631/199317479-67f157c5-6934-470b-8552-5451b1361b9c.png)
 
-HEADER cell, containing the transistors in subthreshold operation;
-SLC cell, containing the Split-Control Level Converter.
-The gds and lef files of HEADER and SLC cells are pre-created before the start of the Generator flow. The layout of the HEADER cell is shown below:
-<img width="1512" alt="Screenshot 2022-11-02 at 3 26 02 AM" src="https://user-images.githubusercontent.com/110079631/199349855-247c9aeb-3ca8-4cd0-863a-cb629778ee2a.png">
-
-The layout of the SLC cell is shown below:
-<img width="1512" alt="Screenshot 2022-11-02 at 3 26 13 AM" src="https://user-images.githubusercontent.com/110079631/199349926-63135ad7-fd85-42bc-998a-dac48b1ad5f1.png">
 
 #### Block Diagram
 ![photo_2022-11-02 10 43 24](https://user-images.githubusercontent.com/110079631/199403863-d02e56c8-40ad-417f-9002-d7130cf23770.jpeg)
