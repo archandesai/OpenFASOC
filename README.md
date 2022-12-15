@@ -88,7 +88,7 @@ Avg Active time of DOWN > Avg Active time of UP   = Dis-Charging of Capacitance 
 **1. Setup:-**
 - Gitclone the repository and copy the `PLL-gen` folder into the generators directory of the `OpenFasoc Tool`(Checkout the References below for the openfasoc tool).
 ```
-git clone https://github.com/vinayrayapati/OpenFaSoc.git
+git clone https://github.com/archandesai/OpenFASOC.git
 ```
 
 **2. Verilog Generation:-**
