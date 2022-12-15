@@ -95,4 +95,33 @@ git clone https://github.com/vinayrayapati/OpenFaSoc.git
 - Open the terminal in the PLL-gen directory and do `make sky130hd_pll_verilog` to generate the Verilog files.
 ![Verilog_generation](https://user-images.githubusercontent.com/110079753/207918462-49332daf-0d53-4d07-b2cf-4eb6731a898d.png)
 
+Verilog files generated 
 
+![file_generated](https://user-images.githubusercontent.com/110079753/207919348-84f2d93c-0843-4b59-900a-57f8888d0eee.png)
+
+** 3. Synthesis and floorplan**
+Run the command ``` make sky130hd_pll```
+
+![syth1](https://user-images.githubusercontent.com/110079753/207920395-36147c73-dad6-4a06-b40b-e57a7b7bfb83.png)
+
+![synth2](https://user-images.githubusercontent.com/110079753/207920400-fe200f10-8a8c-4863-9c7d-5e2ecaaf7444.png)
+### Author
+ - **Archan Desai**
+
+### Contributors
+ - Archan Desai
+ - Kunal Ghosh
+
+### Acknowledgments
+ - Kunal Ghosh, Director, VSD Corp. Pvt. Ltd.
+ - Dr.Madhav Rao, ECE Department, IIIT Bangalore.
+ - Dr.Murali, Co-ordinator(M.Tech), IIIT Bangalore.
+
+### References
+ - OpenFASOC https://github.com/idea-fasoc/OpenFASOC.git
+
+### Contact Information
+ - Archan Desai,Post-Graduate student,International Institute of Information Technology Bangalore,archan.desai00@gmail.com
+ - Kunal Ghosh, Director, VSD Corp. Pvt. Ltd.,kunalghosh@gmail.com
+ - Dr.Madhav Rao, ECE Department, IIIT Bangalore,mr@iiitb.ac.in
+ - Dr.Murali, Co-ordinator(M.Tech), IIIT Bangalore,coordinator-mtech@iiitb.ac.in
